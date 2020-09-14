@@ -1,0 +1,114 @@
+header {
+    background-color: #8BC6EC;
+    background-image: linear-gradient(135deg, #8BC6EC 0%, #9599E2 100%);
+}
+
+.tabs .tab.active {
+    border-top: 2px solid #3f51b5;
+    border-left: 1px solid #e0e0e0;
+    border-right: 1px solid #e0e0e0;
+    border-bottom: none;
+    color: #757575;
+}
+
+.button-primary {
+    background-color: #3f51b5;
+    color: #fff;
+    border-color: #3f51b5;
+}
+
+.button-danger {
+    background-color: #f44336;
+    color: #fff;
+    border-color: #f44336;
+}
+
+.tags .tag {
+background: #ffd740;
+}
+
+.tags .tag-blue {
+    background: #673ab7;
+}
+
+.js-link {
+    color: #3f51b5;
+}
+
+input:focus {
+    border: 1px solid #3f51b5;
+}
+
+textarea:focus {
+    border: 1px solid #3f51b5;
+}
+
+select:focus {
+    border: 1px solid #3f51b5;
+}
+
+.hide {
+  display: none !important;
+}
+
+.w-container {
+  margin: 0 auto;
+  width: 600px;
+}
+
+textarea {
+  resize: none;
+}
+
+.lds-ripple {
+  display: inline-block;
+  position: relative;
+  width: 64px;
+  height: 64px;
+}
+.lds-ripple div {
+  position: absolute;
+  border: 4px solid #3f51b5;
+  opacity: 1;
+  border-radius: 50%;
+  animation: lds-ripple 1s cubic-bezier(0, 0.2, 0.8, 1) infinite;
+}
+.lds-ripple div:nth-child(2) {
+  animation-delay: -0.5s;
+}
+@keyframes lds-ripple {
+  0% {
+      top: 28px;
+      left: 28px;
+      width: 0;
+      height: 0;
+      opacity: 1;
+  }
+  100% {
+      top: -1px;
+      left: -1px;
+      width: 58px;
+      height: 58px;
+      opacity: 0;
+  }
+}
+
+.loader-wrap {
+  display: flex;
+  padding-top: 50px;
+  justify-content: center;
+}
+
+.w-panel-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.multi-line {
+  white-space: pre-line;
+}
+
+.center {
+    text-align: center;
+}
