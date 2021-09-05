@@ -43,4 +43,4 @@ async function useRequest(request) {
     return await response.json()
 }
 
-export const apiService = new PostsService('https://js-note-app.firebaseio.com')
+export const apiService = new PostsService('')
